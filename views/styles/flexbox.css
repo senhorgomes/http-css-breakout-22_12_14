@@ -1,0 +1,58 @@
+.parentOfBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.anotherParent div {
+  height: 120px !important;
+  width: 120px;
+  border: 2px solid black;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #ecbc9e;
+}
+.rectangleBoxBlue {
+  height: 120px;
+  width: 120px;
+  border: 2px solid black;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #98ccd6;
+}
+.rectangleBoxGreen {
+  height: 120px !important;
+  width: 120px;
+  border: 2px solid black;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #ACE6C3;
+}
+#rectangleBoxGreen {
+  height: 100px;
+  width: 160px;
+  border: 2px solid black;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #ACE6C3;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 10px;
+}
